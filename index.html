@@ -2,7 +2,8 @@
 layout: page
 use-site-title: true
 title: The Taos Story
-subtitle: Beauty, bloodshed, blessing, & betrayal
+subtitle: Beauty, bloodshed, betrayal, & bravery
+bigimg: /img/path.jpg
 ---
 
 <div class="posts-list">
@@ -13,6 +14,8 @@ subtitle: Beauty, bloodshed, blessing, & betrayal
 
       {% if post.subtitle %}
       <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+      {% endif %} {% if post.author %}
+      <h3 class="post-subtitle">{{ post.author }}</h3>
       {% endif %}
     </a>
 

@@ -27,6 +27,12 @@
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="{{ include.type }}-heading">
           <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
+		  {% if page.author %}
+		    {% if include.type == "page" %}
+          <hr class="small">
+          <span class="{{ include.type }}-subheading">{{ page.author }}</span>
+        {% endif %}
+      {% endif %}
 		  {% if page.subtitle %}
 		    {% if include.type == "page" %}
             <hr class="small">
