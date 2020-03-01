@@ -1,8 +1,9 @@
 <!-- TODO this file has become a mess, refactor it -->
-
+<!-- prettier-ignore -->
 {% if page.bigimg or page.title %}
 
 {% if page.bigimg %}
+
   <div id="header-big-imgs" data-num-img={% if page.bigimg.first %}{{ page.bigimg.size }}{% else %}1{% endif %}
     {% for bigimg in page.bigimg %}
 	  {% assign imgnum = forloop.index %}
@@ -34,13 +35,14 @@
 			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
 			{% endif %}
 		  {% endif %}
-		  
-		  {% if include.type == "post" %}
-		  <span class="post-meta">Posted on {{ page.date | date: site.date_format }}</span>
-		  {% endif %}
+
+    	  {% if include.type == "post" %}
+    	  <span class="post-meta">Posted on {{ page.date | date: site.date_format }}</span>
+    	  {% endif %}
         </div>
       </div>
     </div>
+
   </div>
   <span class='img-desc'></span>
 </div>
@@ -59,18 +61,19 @@
 			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
 			{% endif %}
 		  {% endif %}
-		  
-		  {% if include.type == "post" %}
-		  <span class="post-meta">Posted on {{ page.date | date: site.date_format }}</span>
-		  {% endif %}
+
+    	  {% if include.type == "post" %}
+    	  <span class="post-meta">Posted on {{ page.date | date: site.date_format }}</span>
+    	  {% endif %}
         </div>
       </div>
     </div>
+
   </div>
 </div>
 </header>
 
-
 {% else %}
+
 <div class="intro-header"></div>
 {% endif %}

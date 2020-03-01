@@ -2,7 +2,7 @@
 layout: base
 ---
 
-{% include header.html type="post" %}
+{% include header.md type="post" %}
 
 <div class="container">
   <div class="row">
@@ -49,7 +49,7 @@ layout: base
       {% endif %}
 
       {% if page.social-share %}
-        {% include social-share.html %}
+        {% include social-share.md %}
       {% endif %}
 
       <ul class="pager blog-pager">
@@ -67,16 +67,17 @@ layout: base
 
       {% if page.comments %}
         <div class="disqus-comments">
-          {% include disqus.html %}
+          {% include disqus.md %}
         </div>
-          {% include fb-comment.html %}
+          {% include fb-comment.md %}
         <div class="staticman-comments">
-          {% include staticman-comments.html %}
+          {% include staticman-comments.md %}
         </div>
         <div class="justcomments-comments">
-          {% include just_comments.html %}
+          {% include just_comments.md %}
         </div>
       {% endif %}
     </div>
+
   </div>
 </div>

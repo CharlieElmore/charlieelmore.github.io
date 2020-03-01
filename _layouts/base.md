@@ -17,19 +17,19 @@ common-js:
 <!DOCTYPE html>
 <html lang="en">
   <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
-  {% include head.html %}
+  {% include head.md %}
 
   <body>
 
-    {% include gtm_body.html %}
-  
-    {% include nav.html %}
+    {% include gtm_body.md %}
+
+    {% include nav.md %}
 
     {{ content }}
 
-    {% include footer.html %}
-  
-    {% include footer-scripts.html %}
-  
+    {% include footer.md %}
+
+    {% include footer-scripts.md %}
+
   </body>
 </html>

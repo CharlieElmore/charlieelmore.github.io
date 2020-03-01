@@ -1,4 +1,5 @@
 {% if site.staticman.repository and site.staticman.branch %}
+
   <div class="page__comments">
     <!-- Start static comments -->
     <div class="js-comments">
@@ -11,7 +12,7 @@
           {% assign url = comment[1].url %}
           {% assign date = comment[1].date %}
           {% assign message = comment[1].message %}
-          {% include staticman-comment.html index=forloop.index email=email name=name url=url date=date message=message %}
+          {% include staticman-comment.md index=forloop.index email=email name=name url=url date=date message=message %}
         {% endfor %}
       {% endif %}
     </div>
@@ -78,4 +79,5 @@
     }
   </script>
   <script src="{{ "/js/staticman.js" | relative_url }}"></script>
+
 {% endif %}

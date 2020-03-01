@@ -7,58 +7,62 @@
 
   <meta name="author" content="{{ site.author.name }}" />
 
-  {% if page.subtitle %}
+{% if page.subtitle %}
+
   <meta name="description" content="{{ page.subtitle }}">
   {% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ '/feed.xml' | absolute_url }}" />
 
-  {% include gtag.html %}
-  {% include gtm_head.html %}
-  {% include google_analytics.html %}
+{% include gtag.md %}
+{% include gtm_head.md %}
+{% include google_analytics.md %}
 
-  {% if layout.common-ext-css %}
-    {% for css in layout.common-ext-css %}
-      {% include ext-css.html css=css %}
-    {% endfor %}
-  {% endif %}
+{% if layout.common-ext-css %}
+{% for css in layout.common-ext-css %}
+{% include ext-css.md css=css %}
+{% endfor %}
+{% endif %}
 
-  {% if layout.common-css %}
-    {% for css in layout.common-css %}
-      <link rel="stylesheet" href="{{ css | relative_url }}" />
-    {% endfor %}
-  {% endif %}
+{% if layout.common-css %}
+{% for css in layout.common-css %}
+<link rel="stylesheet" href="{{ css | relative_url }}" />
+{% endfor %}
+{% endif %}
 
-  {% if layout.common-googlefonts %}
-    {% for font in layout.common-googlefonts %}
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
-    {% endfor %}
-  {% endif %}
+{% if layout.common-googlefonts %}
+{% for font in layout.common-googlefonts %}
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
+{% endfor %}
+{% endif %}
 
-  {% if page.ext-css %}
-    {% for css in page.ext-css %}
-      {% include ext-css.html css=css %}
-    {% endfor %}
-  {% endif %}
+{% if page.ext-css %}
+{% for css in page.ext-css %}
+{% include ext-css.md css=css %}
+{% endfor %}
+{% endif %}
 
-  {% if page.css %}
-    {% for css in page.css %}
-      <link rel="stylesheet" href="{{ css | relative_url }}" />
-    {% endfor %}
-  {% endif %}
+{% if page.css %}
+{% for css in page.css %}
+<link rel="stylesheet" href="{{ css | relative_url }}" />
+{% endfor %}
+{% endif %}
 
-  {% if page.googlefonts %}
-    {% for font in page.googlefonts %}
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
-    {% endfor %}
-  {% endif %}
+{% if page.googlefonts %}
+{% for font in page.googlefonts %}
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
+{% endfor %}
+{% endif %}
 
     <!-- Facebook OpenGraph tags -->
-  {% if site.fb_app_id %}
+
+{% if site.fb_app_id %}
+
   <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
   {% endif %}
 
-  {% if page.meta-title %}
+{% if page.meta-title %}
+
   <meta property="og:title" content="{{ page.meta-title }}" />
   {% elsif page.title %}
   <meta property="og:title" content="{{ page.title }}" />
@@ -66,7 +70,8 @@
   <meta property="og:title" content="{{ site.title }}" />
   {% endif %}
 
-   {% if page.meta-description %}
+{% if page.meta-description %}
+
   <meta property="og:description" content="{{ page.meta-description }}">
   {% elsif page.subtitle %}
   <meta property="og:description" content="{{ page.subtitle }}">
@@ -74,10 +79,10 @@
   <meta property="og:description" content="{{ page.content | strip_html | xml_escape | truncatewords: 50 }}">
   {% endif %}
 
-
   <meta property="og:type" content="website" />
 
-  {% if page.id %}
+{% if page.id %}
+
   <meta property="og:url" content="{{ page.url | absolute_url }}" />
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
   {% else %}
@@ -85,19 +90,20 @@
   <link rel="canonical" href="{{ page.url | absolute_url | strip_index }}" />
   {% endif %}
 
-  {% if page.share-img %}
+{% if page.share-img %}
+
   <meta property="og:image" content="{{ page.share-img }}" />
   {% elsif site.avatar %}
   <meta property="og:image" content="{{ site.avatar | absolute_url }}" />
   {% endif %}
-
 
   <!-- Twitter summary cards -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{ site.author.twitter }}" />
   <meta name="twitter:creator" content="@{{ site.author.twitter }}" />
 
-  {% if page.meta-title %}
+{% if page.meta-title %}
+
   <meta name="twitter:title" content="{{ page.meta-title }}" />
   {% elsif page.title %}
   <meta name="twitter:title" content="{{ page.title }}" />
@@ -105,7 +111,8 @@
   <meta name="twitter:title" content="{{ site.title }}" />
   {% endif %}
 
-  {% if page.meta-description %}
+{% if page.meta-description %}
+
   <meta name="twitter:description" content="{{ page.meta-description }}">
   {% elsif page.subtitle %}
   <meta name="twitter:description" content="{{ page.subtitle }}">
@@ -113,17 +120,19 @@
   <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncatewords: 50 }}">
   {% endif %}
 
-  {% if page.share-img %}
+{% if page.share-img %}
+
   <meta name="twitter:image" content="{{ page.share-img }}" />
   {% elsif site.avatar %}
   <meta name="twitter:image" content="{{ site.avatar | absolute_url }}" />
   {% endif %}
 
-  {% if site.matomo %}
-  {% include matomo.html %}
-  {% endif %}
+{% if site.matomo %}
+{% include matomo.md %}
+{% endif %}
 
-  {% if page.comments and site.staticman.repository and site.staticman.branch %}
+{% if page.comments and site.staticman.repository and site.staticman.branch %}
+
   <!-- Staticman -->
   <link rel="stylesheet" href="{{ "/css/staticman.css" | relative_url }}" />
   {% endif %}

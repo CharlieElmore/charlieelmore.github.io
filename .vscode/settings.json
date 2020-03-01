@@ -1,0 +1,8 @@
+{
+  "prettier.disableLanguages": ["html"],
+  "html.format.enable": false,
+  "html.format.preserveNewLines": false,
+  "files.associations": {
+    "*.html": "liquid"
+  }
+}
