@@ -10,7 +10,9 @@ forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign 
       <h2 class="post-title">{{ post.title }}</h2>
 
       {% if post.subtitle %}
-      <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+        <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+      {% elsif post.author %}
+        <h3 class="post-subtitle">by {{ post.author }}</h3>
       {% endif %}
     </a>
     <div class="entry-date">

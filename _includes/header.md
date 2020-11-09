@@ -27,20 +27,22 @@
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="{{ include.type }}-heading">
           <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
-		  {% if page.author %}
-		    {% if include.type == "page" %}
-          <hr class="small">
-          <span class="{{ include.type }}-subheading">{{ page.author }}</span>
-        {% endif %}
-      {% endif %}
-		  {% if page.subtitle %}
-		    {% if include.type == "page" %}
+
+    	  {% if page.subtitle %}
+    	    {% if include.type == "page" %}
             <hr class="small">
             <span class="{{ include.type }}-subheading">{{ page.subtitle }}</span>
-			{% else %}
-			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
-			{% endif %}
-		  {% endif %}
+          {% else %}
+          <h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
+          {% endif %}
+    	  {% endif %}
+
+    	  {% if include.type == "post" %}
+          {% if page.author %}
+          <hr class="small">
+          <span class="{{ include.type }}-subheading">{{ page.author }}</span>
+          {% endif %}
+        {% endif %}
 
     	  {% if include.type == "post" %}
     	  <span class="post-meta">Posted on {{ page.date | date: site.date_format }}</span>
@@ -59,18 +61,24 @@
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="{{ include.type }}-heading">
           <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
-		  {% if page.subtitle %}
-		    {% if include.type == "page" %}
-            <hr class="small">
-            <span class="{{ include.type }}-subheading">{{ page.subtitle }}</span>
-			{% else %}
-			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
-			{% endif %}
-		  {% endif %}
+          {% if page.subtitle %}
+            {% if include.type == "page" %}
+                <hr class="small">
+                <span class="{{ include.type }}-subheading">{{ page.subtitle }}</span>
+            {% else %}
+            <h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
+            {% endif %}
+          {% endif %}
 
-    	  {% if include.type == "post" %}
-    	  <span class="post-meta">Posted on {{ page.date | date: site.date_format }}</span>
-    	  {% endif %}
+          {% if include.type == "post" %}
+            {% if page.author %}
+            <h2 class="{{ include.type }}-subheading">by {{ page.author }}</h2>
+            {% endif %}
+          {% endif %}
+
+          {% if include.type == "post" %}
+            <span class="post-meta">Posted on {{ page.date | date: site.date_format }}</span>
+          {% endif %}
         </div>
       </div>
     </div>
