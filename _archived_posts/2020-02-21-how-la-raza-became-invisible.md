@@ -1,8 +1,9 @@
 ---
-layout: post
 title: How la Raza Became Invisible
+layout: post
 author: Anita Rodriguez
-tags: [history]
+tags:
+- history
 comments: true
 ---
 

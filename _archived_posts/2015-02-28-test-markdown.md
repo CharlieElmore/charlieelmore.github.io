@@ -1,10 +1,14 @@
 ---
-layout: post
 title: Test markdown
+layout: post
 subtitle: Each post also has a subtitle
 gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [history]
+gh-badge:
+- star
+- fork
+- follow
+tags:
+- history
 comments: true
 author: Brian
 ---

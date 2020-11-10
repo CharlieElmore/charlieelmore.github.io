@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: 
 ---
 
 @import url("pygment_highlights.css");
@@ -122,7 +122,7 @@ img {
 }
 
 .navbar-brand {
-  font-family: 'Norican', cursive;
+  font-family: 'Engagement', cursive;
   font-size: 3rem;
 }
 
