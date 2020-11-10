@@ -26,12 +26,14 @@
 
 {% if layout.common-css %}
 {% for css in layout.common-css %}
+
 <link rel="stylesheet" href="{{ css | relative_url }}" />
 {% endfor %}
 {% endif %}
 
 {% if layout.common-googlefonts %}
 {% for font in layout.common-googlefonts %}
+
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
 {% endfor %}
 {% endif %}
@@ -44,12 +46,14 @@
 
 {% if page.css %}
 {% for css in page.css %}
+
 <link rel="stylesheet" href="{{ css | relative_url }}" />
 {% endfor %}
 {% endif %}
 
 {% if page.googlefonts %}
 {% for font in page.googlefonts %}
+
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
 {% endfor %}
 {% endif %}
