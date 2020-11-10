@@ -1,11 +1,11 @@
 # --- General options --- #
 
 # Name of website
-title: The Taos Story
-subtitle: Beauty, bloodshed, betrayal, & bravery
+title: Charlie's Custom Songs
+subtitle: A Song for Everyone
 
 # Short description of your site
-description: The story of Taos, told by those who lived it
+description: Short Description of Charlie's Custom Songs
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -21,12 +21,13 @@ description: The story of Taos, told by those who lived it
 
 # List of links in the navigation bar
 navbar-links:
-  About: about
-  Topics:
-    - Water: water
-    - Youth: youth
-    - History: history
-  Support: support
+  Home: home
+
+  Packages: packages
+
+  Your Music: your-music
+
+  Your Lyrics: your-lyrics
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
