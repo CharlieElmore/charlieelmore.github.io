@@ -7,7 +7,7 @@ common-ext-css:
   - "//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"
 common-googlefonts:
   - "Syne:400,500,600,700"
-  - "Engagement"
+  - "Norican"
 common-js:
   - "/js/jquery-1.11.2.min.js"
   - "/js/bootstrap.min.js"
