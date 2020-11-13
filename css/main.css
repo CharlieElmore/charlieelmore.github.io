@@ -1,5 +1,5 @@
 ---
-layout: 
+layout:
 ---
 
 @import url("pygment_highlights.css");
@@ -122,8 +122,8 @@ img {
 }
 
 .navbar-brand {
-  font-family: 'Norican', cursive;
   font-size: 3rem;
+  text-indent: -9999px;
 }
 
 .navbar-custom .navbar-brand,
@@ -190,6 +190,10 @@ img {
   width: 100%;
   border-radius: 50%;
   display: block;
+  background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,27,27,1) 36%, rgba(134,134,134,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,27,27,1) 36%, rgba(134,134,134,1) 100%);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,27,27,1) 36%, rgba(134,134,134,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#868686",GradientType=1);
 }
 
 .navbar-custom.top-nav-expanded .avatar-container {
