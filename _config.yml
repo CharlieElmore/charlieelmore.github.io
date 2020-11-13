@@ -9,18 +9,18 @@ collections:
     title: Uploads
     output: true
 defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      comments: true
-      social-share: true
-  - scope:
-      path: ""
-    values:
-      layout: page
-      show-avatar: true
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    comments: true
+    social-share: true
+- scope:
+    path: ''
+  values:
+    layout: page
+    show-avatar: true
 subtitle: A Song for Everyone
 description: Short Description of Charlie's Custom Songs
 navbar-links:
@@ -54,10 +54,10 @@ url-pretty: MyWebsite.com
 staticman:
   repository: bfeister/bfeister
   branch: master
-  endpoint:
+  endpoint: 
   reCaptcha:
-    siteKey:
-    secret:
+    siteKey: 
+    secret: 
 excerpt_length: 50
 title-separator: "-"
 date_format: "%B %-d, %Y"
@@ -70,64 +70,64 @@ kramdown:
 title-img: "/img/navbar-logo.png"
 link-tags: true
 exclude:
-  - CHANGELOG.md
-  - CNAME
-  - Dockerfile
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - Vagrantfile
+- CHANGELOG.md
+- CNAME
+- Dockerfile
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
+- Vagrantfile
 prose:
   rooturl: _posts
   media: img
   ignore:
-    - 404.md
-    - LICENSE
-    - feed.xml
-    - _config.yml
-    - "/_layouts"
-    - "/_includes"
-    - "/css"
-    - "/img"
-    - "/js"
+  - 404.md
+  - LICENSE
+  - feed.xml
+  - _config.yml
+  - "/_layouts"
+  - "/_includes"
+  - "/css"
+  - "/img"
+  - "/js"
   metadata:
     _posts:
-      - name: layout
-        field:
-          element: hidden
-          value: post
-      - name: title
-        field:
-          element: text
-          label: Post title
-          placeholder: Title
-          alterable: true
-      - name: subtitle
-        field:
-          element: textarea
-          label: Subtitle
-          placeholder: A description of your post.
-          alterable: true
-      - name: date
-        field:
-          element: text
-          label: Date
-          help: Enter date of post.
-          placeholder: yyyy-mm-dd
-          alterable: true
-      - name: image
-        field:
-          element: text
-          label: Image
-          help: Add a thumbnail image to your post.
-          placeholder: Thumbnail
-          alterable: true
-      - name: published
-        field:
-          element: checkbox
-          label: Publish
-          help: Check to publish post, uncheck to hide.
+    - name: layout
+      field:
+        element: hidden
+        value: post
+    - name: title
+      field:
+        element: text
+        label: Post title
+        placeholder: Title
+        alterable: true
+    - name: subtitle
+      field:
+        element: textarea
+        label: Subtitle
+        placeholder: A description of your post.
+        alterable: true
+    - name: date
+      field:
+        element: text
+        label: Date
+        help: Enter date of post.
+        placeholder: yyyy-mm-dd
+        alterable: true
+    - name: image
+      field:
+        element: text
+        label: Image
+        help: Add a thumbnail image to your post.
+        placeholder: Thumbnail
+        alterable: true
+    - name: published
+      field:
+        element: checkbox
+        label: Publish
+        help: Check to publish post, uncheck to hide.
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+- jekyll-paginate
+- jekyll-sitemap
