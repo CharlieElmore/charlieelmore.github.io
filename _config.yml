@@ -39,20 +39,22 @@ footer-col: "#F5F5F5"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 author:
-  name: Some Person
+  name: Charlie Elmore
 social-network-links:
-  rss: true
-  email: someone@example.com
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  # rss: true
+  email: charliescustomsongs@gmail.com
+  # facebook: deanattali
+  # github: daattali
+  # twitter: daattali
+  spotify: charliesusername/number
+  youtube: charliesyoutube
 share-links-active:
   twitter: true
   facebook: true
   linkedin: true
-url-pretty: MyWebsite.com
+url-pretty: CharliesCustomSongs.com
 staticman:
-  repository: bfeister/bfeister
+  repository: CharlieElmore/charlieelmore.github.io
   branch: master
   endpoint:
   reCaptcha:

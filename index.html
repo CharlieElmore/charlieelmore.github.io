@@ -3,8 +3,13 @@ title: Charlie's Custom Songs
 layout: page
 use-site-title: true
 subtitle: A Song for Everyone
-bigimg: "/img/andrew-santellan-JS-l3dLb8eQ-unsplash.jpg"
+permalink: "/"
+video-header-id: 4WV-KomnzGc
+# bigimg: "/img/andrew-santellan-JS-l3dLb8eQ-unsplash.jpg"
 ---
+
+{% capture my_include %}{% include_relative home.md %}{% endcapture %} {{
+my_include | markdownify }}
 
 <div class="posts-list">
   {% for post in paginator.posts %}
