@@ -41,11 +41,7 @@ footer-link-col: "#404040"
 author:
   name: Charlie Elmore
 social-network-links:
-  # rss: true
   email: charliescustomsongs@gmail.com
-  # facebook: deanattali
-  # github: daattali
-  # twitter: daattali
   spotify: charliesusername/number
   youtube: charliesyoutube
 share-links-active:
