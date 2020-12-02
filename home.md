@@ -33,4 +33,4 @@ I can help you give the gift of song for:
 
 ### How it works
 
-Answer the brief questionnaire, choose either the Basic or Premium Package and any extras, and I’ll start writing and recording your custom song (the finished song will be around 3-4 minutes long). Within 3 weeks of your purchase, I will email you a high-quality digital recording of your song (MP3 format) along with a chord chart and lyrics sheet that you can print and frame to give to your song’s recipient.
+[Go to the "Your Song" page](/your-song), answer the brief questionnaire, choose either the Basic or Premium Package and any extras, and I’ll start writing and recording your custom song (the finished song will be around 3-4 minutes long). Within 3 weeks of your purchase, I will email you a high-quality digital recording of your song (MP3 format) along with a chord chart and lyrics sheet that you can print and frame to give to your song’s recipient.

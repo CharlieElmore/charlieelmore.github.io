@@ -4,6 +4,8 @@ layout: page
 bigimg: "/img/guitar-w-notebook.jpg"
 ---
 
+Fill out the brief questionnaire below to customize your song. **After Charlie reviews your submission he will contact you with billing instructions**.
+
 ## Song Packages
 
 ### Basic Package - \$299
@@ -61,15 +63,4 @@ If you are interested in any of these additional services, or for general inquir
 <br />
 
 <div id="ff-compose"></div>
-<script async defer src="https://formfacade.com/include/115737635616274798313/form/1FAIpQLSfAK1dp3_X7lfiG5MPCgqx3TzGYxnv0cfRI4XDDQ1t70sUCSg/classic.js?div=ff-compose"></script>
-
-<script>
-document.querySelector("iframe").addEventListener("load",
-    function() {
-        window.scrollTo({
-    top: 350,
-    left: 0,
-    behavior: 'smooth'
-  });
-});
-</script>
+<script async defer src="https://formfacade.com/include/115737635616274798313/form/1FAIpQLScE664jrL0AT91SM29h3NSfdGhFYSHTTdC7ulQJ6ouldY84rw/classic.js?div=ff-compose"></script>
