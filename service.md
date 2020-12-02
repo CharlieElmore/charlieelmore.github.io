@@ -10,3 +10,5 @@ I don’t have a refund policy. It’s my goal that you’ll be satisfied (and t
 I’ll also feature some of these songs and your testimonials for promotional and marketing purposes on social media and on this website (unless, of course, you purchase the commercial usage and licensing rights). I would especially appreciate videos of song reactions to use on this website and on social media. If you’re willing to share written testimonials or videos of your experience with your custom song, email them to <a href="mailto:charliescustomsongs@gmail.com">charliescustomsongs@gmail.com</a>.
 
 Thank you!
+
+<img src="/img/charlie-hat.jpg">
