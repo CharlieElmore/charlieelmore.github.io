@@ -1,6 +1,7 @@
 ---
 title: About Charlie
 layout: page
+bigimg: "/img/charlie-studio.jpg"
 ---
 
 I have a Bachelor of Arts in English/Creative Writing from the
