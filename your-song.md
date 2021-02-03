@@ -8,7 +8,7 @@ Fill out the brief questionnaire below to customize your song. **After Charlie r
 
 ## Song Packages
 
-### Basic Package - \$299
+### Basic Package - \$149
 
 **Package includes**
 
@@ -17,7 +17,7 @@ Fill out the brief questionnaire below to customize your song. **After Charlie r
 - A lyric sheet of your song
 - A high-quality, digital recording of your song with one voice and one accompanying instrument (acoustic guitar or piano) delivered in MP3 format.
 
-### Premium Package - \$549
+### Premium Package - \$299
 
 **Package includes**
 
