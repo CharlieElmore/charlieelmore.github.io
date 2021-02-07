@@ -7,11 +7,11 @@ layout: page
 “Charlie wrote 'Hold You Close' and sang it at our wedding. The
 song was so personal and really spoke of our love story, not to
 mention it was a beautiful melody and song. It’s something that I
-will treasure forever and pass on to my kids and grandkids.”
+will treasure forever and pass on to my kids and grandkids.” (hear the song below)
 <small>Ann Marie R.</small>
 </blockquote>
 
-<hr />
+<iframe src="http://www.youtube.com/embed/FlObKNNeDvg" rel="0&modestbranding=1&autohide=1&showinfo=0&controls=0" width="100%" height="400px" frameborder="0" allowfullscreen="0"></iframe>
 
 <blockquote style="font-size: 22px; border-left: none">
 “For my wife’s 50th birthday, I wanted to do something
